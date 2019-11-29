@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+  box-sizing: border-box;
+}
+
+.btn__primary {
+  padding: 0.3em 0.5em;
+  background-color: #dadada;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  color: #262626;
+  font-size: 1.1em;
+}
+
+.btn__secondary {
+  padding: 0.3em 0.5em;
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  color: #dadada;
+  font-size: 1.1em;
+}
+
+.btn__tertiary {
+  padding: 0.3em 0.5em;
+  background-color: #262626;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.text__decoration-none {
+  text-decoration: none;
+}
+
+.mr-s {
+  margin-right: 5px;
+}
+
+.mr-m {
+  margin-right: 15px;
+}
+
+.mr-l {
+  margin-right: 30px;
+}
+
+.m-s {
+  padding: 10px;
+}
+.m-m {
+  padding: 20px;
+}
+.m-l {
+  padding: 30px;
+}
+
+.pr-s {
+  margin-right: 5px;
+}
+
+.pr-m {
+  margin-right: 15px;
+}
+
+.pr-l {
+  margin-right: 30px;
+}
+
+.p-s {
+  padding: 10px;
+}
+.p-m {
+  padding: 20px;
+}
+.p-l {
+  padding: 30px;
+}
