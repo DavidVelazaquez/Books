@@ -7,24 +7,30 @@ import LandingPage from "./pages/landingPage";
 import SignUp from "./pages/signup";
 import SignIn from "./pages/signin";
 import Layout from "./components/layout";
-// import NotFound from "./pages/notFound";
+// import { AuthProvider } from "./firebase/author";
+import { FirebaseContext } from "./firebase/context";
+import Firebase from "./firebase/firebase";
 
 function App() {
   return (
     <BrowserRouter>
-      <Layout>
-        <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/home/signup" component={SignUp} />
-          <Route exact path="/home/signin" component={SignIn} />
-          <Route
-            exact
-            path="/home/signin/landingPage"
-            component={LandingPage}
-          />
-        </Switch>
-      </Layout>
-      {/* <Route component={NotFound} /> */}
+      <FirebaseContext.Provider value={new Firebase()}>
+        {/* <AuthProvider> */}
+        <Layout>
+          <Switch>
+            <Route
+              exact
+              path="/home/signin/landingPage"
+              component={LandingPage}
+            />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/home/signup" component={SignUp} />
+            <Route exact path="/home/signin" component={SignIn} />
+          </Switch>
+        </Layout>
+        {/* <Route component={NotFound} /> */}
+        {/* </AuthProvider> */}
+      </FirebaseContext.Provider>
     </BrowserRouter>
   );
 }
