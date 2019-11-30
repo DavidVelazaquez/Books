@@ -19,7 +19,6 @@ form {
   width: 50%;
   flex-direction: column;
   padding-bottom: 15px;
-  /* padding: 7em 3.5em; */
 }
 
 .signin__greeting {
@@ -31,14 +30,30 @@ form {
 }
 
 .form__label {
-  margin: 8px 0;
+  margin: 5px 0;
   width: 100%;
 }
 
 .form__input {
+  width: 100%;
   border: none;
   border-radius: 5px;
-  padding: 4px;
+  padding: 6px;
   background-color: #53161679;
   outline: none;
+}
+
+.forgot__password {
+  width: 100%;
+  font-size: 0.8em;
+  color: #575757;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.button__signin {
+  margin-top: 15px;
+  font-size: 1em;
 }

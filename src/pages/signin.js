@@ -18,6 +18,8 @@ class SignIn extends React.Component {
               <input className="form__input" type="email" />
               <label className="form__label">Password</label>
               <input className="form__input" type="password" />
+              <p className="forgot__password">Forgot password?</p>
+              <button className="btn__tertiary button__signin">Sign in</button>
             </form>
           </section>
         </section>
