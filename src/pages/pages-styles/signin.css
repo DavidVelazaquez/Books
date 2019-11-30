@@ -1,0 +1,32 @@
+.signin__hero {
+  width: 100%;
+  height: 90vh;
+}
+
+.signin__hero-container {
+  border-radius: 10px;
+  background-color: #dadada;
+  display: flex;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  padding: 7em 3.5em;
+}
+
+.signin__greeting {
+  margin: 30px;
+  padding: 15px;
+  flex-direction: column;
+  border-right: 1px solid #c24545;
+}
+
+.form__label {
+  margin: 8px 0;
+}
+
+.form__input {
+  border: none;
+  padding: 6px;
+}

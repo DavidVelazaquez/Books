@@ -5,6 +5,12 @@ body {
   box-sizing: border-box;
 }
 
+.dflex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn__primary {
   padding: 0.3em 0.5em;
   background-color: #dadada;
@@ -35,6 +41,10 @@ body {
   text-decoration: none;
 }
 
+.list__style-none {
+  list-style: none;
+}
+
 .mr-s {
   margin-right: 5px;
 }
@@ -45,6 +55,10 @@ body {
 
 .mr-l {
   margin-right: 30px;
+}
+
+.m-n {
+  margin: 0;
 }
 
 .m-s {
@@ -67,6 +81,10 @@ body {
 
 .pr-l {
   margin-right: 30px;
+}
+
+.p-n {
+  padding: 0;
 }
 
 .p-s {

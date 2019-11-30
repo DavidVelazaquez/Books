@@ -1,3 +1,51 @@
 .home__hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.home__books {
+  width: 30%;
+  height: 65%;
+  background-image: url("https://images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.home__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 6%;
+  width: 30%;
+  height: 70%;
+  background-color: #c2eabd;
+  box-sizing: border-box;
+}
+
+.home__details-title {
+  padding: 0 30px;
+  text-align: center;
+  font-size: 2.1em;
+}
+
+.home__details-paragraph {
+  padding: 0 15px;
+  font-size: 1.1em;
+  text-align: justify;
+  font-weight: 450;
+  padding-bottom: 20px;
+}
+
+.home__details-list {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__details-list li {
+  margin: 5px 0;
 }
