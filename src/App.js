@@ -22,9 +22,9 @@ function App() {
             path="/home/signin/landingPage"
             component={LandingPage}
           />
-          {/* <Route component={NotFound} /> */}
         </Switch>
       </Layout>
+      {/* <Route component={NotFound} /> */}
     </BrowserRouter>
   );
 }

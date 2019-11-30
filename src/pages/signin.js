@@ -12,7 +12,8 @@ class SignIn extends React.Component {
               <h2>Welcome!</h2>
               <p>Get ready to read!</p>
             </article>
-            <form className="signin__form">
+            <form className="signin__form dflex-center">
+              <h2>Sign in</h2>
               <label className="form__label">Email</label>
               <input className="form__input" type="email" />
               <label className="form__label">Password</label>

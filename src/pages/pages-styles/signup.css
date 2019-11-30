@@ -1,0 +1,38 @@
+.signup__hero {
+  width: 100%;
+  height: 90vh;
+}
+
+.signup__hero-container {
+  width: 30%;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.signup__title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.signup__form {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form__input {
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #53161679;
+  outline: none;
+}
+
+.form__button {
+  font-size: 1em;
+}

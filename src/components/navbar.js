@@ -11,18 +11,18 @@ class NavBar extends React.Component {
         <Link to="/home">
           <img src={logo} alt="Book Logo" />
         </Link>
-        <ul>
+        <ul className="mr-m">
           <Link
-            className="btn__secondary text__decoration-none mr-m"
-            to="/home/signin"
-          >
-            Sign in
-          </Link>
-          <Link
-            className="btn__primary text__decoration-none"
+            className="btn__primary text__decoration-none mr-m"
             to="/home/signup"
           >
             Sign up
+          </Link>
+          <Link
+            className="btn__secondary text__decoration-none"
+            to="/home/signin"
+          >
+            Sign in
           </Link>
         </ul>
       </nav>

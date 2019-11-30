@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #262626;
+  background-color: #531616;
   box-sizing: border-box;
 }
 
@@ -13,11 +13,18 @@ body {
 
 .btn__primary {
   padding: 0.3em 0.5em;
-  background-color: #dadada;
-  border: 1px solid #dadada;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
   border-radius: 5px;
   color: #262626;
   font-size: 1.1em;
+  transition: 0.2s;
+}
+
+.btn__primary:hover {
+  background-color: #f1f1f14d;
+  border: 1px solid #f1f1f13f;
+  transition: 0.2s;
 }
 
 .btn__secondary {
@@ -27,14 +34,15 @@ body {
   border-radius: 5px;
   color: #dadada;
   font-size: 1.1em;
+  transition: 0.2s;
 }
 
 .btn__tertiary {
   padding: 0.3em 0.5em;
   background-color: #262626;
   border: 1px solid #262626;
+  color: #dadada;
   border-radius: 5px;
-  font-size: 1.1em;
 }
 
 .text__decoration-none {

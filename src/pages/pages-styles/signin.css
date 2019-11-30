@@ -7,16 +7,24 @@
   border-radius: 10px;
   background-color: #dadada;
   display: flex;
+  padding: 50px;
+}
+
+.signin__hero-container article,
+form {
+  padding: 0 50px;
 }
 
 .signin__form {
-  display: flex;
+  width: 50%;
   flex-direction: column;
-  padding: 7em 3.5em;
+  padding-bottom: 15px;
+  /* padding: 7em 3.5em; */
 }
 
 .signin__greeting {
-  margin: 30px;
+  width: 50%;
+  /* margin: 30px; */
   padding: 15px;
   flex-direction: column;
   border-right: 1px solid #c24545;
@@ -24,9 +32,13 @@
 
 .form__label {
   margin: 8px 0;
+  width: 100%;
 }
 
 .form__input {
   border: none;
-  padding: 6px;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #53161679;
+  outline: none;
 }
