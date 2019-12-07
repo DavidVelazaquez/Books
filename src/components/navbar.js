@@ -8,7 +8,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <nav className="menu p-m">
-        <Link to="/home/signin/landingPage">
+        <Link to="/">
           <img src={logo} alt="Book Logo" />
         </Link>
         <ul className="mr-m">

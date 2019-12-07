@@ -11,7 +11,7 @@ class LandingPage extends React.Component {
           <article className="home__details p-m">
             <h1 className="home__details-title">Find Books</h1>
             <p className="home__details-paragraph">
-              This web site was created for those who do not have access to
+              This website was created for those who do not have access to
               books. Here, you can learn and you will be able to:
             </p>
             <ul className="home__details-list list__style-none">
