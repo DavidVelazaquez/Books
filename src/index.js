@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Firebase, { FirebaseContext } from "./firebase/index";
+import Firebase, { FirebaseContext } from "./firebase/";
 import App from "./app";
 
 const container = document.getElementById("root");
